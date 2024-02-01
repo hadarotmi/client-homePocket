@@ -74,20 +74,29 @@ const HomePage = () => {
           <img src="https://i.ibb.co/tmTsmLw/i-Phone-8-Plus-1.png" />
         </Box>
       </Box>
-      <Box sx={{ paddingTop: "200px" }}>
+      <Box sx={{ paddingTop: "200px" }} >
         <ExmpleChart />
       </Box>
 
-        <Grid container justifyContent={"center"}>
+        <Grid  container justifyContent={"space-between"} alignItems={"center"} sx={{margin:"auto",width:"90%"}}>
           <Grid data-aos="fade-left" item xs={6}>
-            <img src="https://i.ibb.co/x2wSRLZ/2au-F11-Logo-Makr-1.png" />
+            <img src="https://i.ibb.co/mD5Ly5P/98oax-O-Logo-Makr.png" width={"500"}/>
           </Grid>
           <Grid item xs={6}>
              <Typography fontWeight={"bold"}>
             !טובעים בים של מספרים? אנחנו כאן לעזור
           </Typography>
           </Grid>
-         
+        </Grid>
+
+        <Grid  container justifyContent={"space-between"} alignItems={"center"} sx={{margin:"auto",width:"60%"}}>
+        <Grid item xs={6}>
+             <Typography fontWeight={"bold"}>
+            !טובעים בים של מספרים? אנחנו כאן לעזור
+          </Typography>
+          </Grid>  <Grid data-aos="fade-left" item xs={6}>
+            <img src="https://i.ibb.co/RbSncDd/5hz3x-J-Logo-Makr.png" width={"500"}/>
+          </Grid>
         </Grid>
     </Box>
   );
