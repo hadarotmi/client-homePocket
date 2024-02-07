@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 // import { configureStore } from "@reduxjs/toolkit";
 // import { useMediaQuery } from "@mui/material";
 import HomePage from './Components/homePage';
+import AppRoutes from "./Components/appRouters";
 
 const theme = createTheme({
   direction: "rtl",
@@ -45,7 +46,7 @@ const App=() => {
     <CacheProvider value={cacheRtl}>
       <ThemeProvider theme={theme}>
         {/* <Provider store={myStore}> */}
-          <HomePage/>
+        <AppRoutes/>
         {/* </Provider> */}
       </ThemeProvider>
     </CacheProvider>
